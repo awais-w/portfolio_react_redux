@@ -115,7 +115,7 @@ export const initialState = {
             ]
         },
         {
-            caption: "PROTOTYPING",
+            caption: "UX DESIGN",
             projects : [
                 {
                     id: 'vodafone_ux',
