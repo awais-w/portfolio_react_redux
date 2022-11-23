@@ -6,6 +6,8 @@ import affinionLogo from '../images/logos/affinion.png';
 import superdrugLogo from '../images/logos/superdrug.png';
 import coralLogo from '../images/logos/coral.png';
 import kaplanLogo from '../images/logos/kaplan.png';
+import autodeskLogo from '../images/logos/autodesk.png';
+import britishgasLogo from '../images/logos/britishgas.png';
 
 export default function ResumeExperience(props) {
   return (
@@ -13,6 +15,85 @@ export default function ResumeExperience(props) {
       <h1>Experience</h1>
       {/* <p>Below are some of the places where I've rendered my services as a contractor as well as a permanent employee.</p> */}
       <ul className="experience-list">
+        <li>
+          <a
+            href="https://www.britishgas.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img height="50" alt="British Gas" src={britishgasLogo} />
+          </a>
+          <h3 className="title">British gas</h3>
+          <p className="bolder sizeSmall">
+            Nov 2021 - Present • Contract Position • Lead Product Designer
+          </p>
+          <p className="desc">
+            <ul className="custom">
+              <li>
+                Setup and maintainence of Design Systems/UI kits for multiple
+                brands
+              </li>
+              <li>
+                Mentoring and training the design team through workshops and
+                learning sessions
+              </li>
+              <li>
+                Defining and testing efficient and coherent ways of working and
+                collaboration workflow
+              </li>
+              <li>Research and User testing</li>
+              <li>
+                Figma plugin developmentSetup and maintainence of Design
+                Systems/UI kits for multiple brands
+              </li>
+              <li>
+                Mentoring and training the design team through workshops and
+                learning sessions
+              </li>
+              <li>
+                Defining and testing efficient and coherent ways of working and
+                collaboration workflow
+              </li>
+              <li>Research and User testing</li>
+              <li>Figma plugin development</li>
+            </ul>
+          </p>
+        </li>
+        <li>
+          <a
+            href="https://www.autodesk.co.uk/bim-360/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img height="20" alt="Autodesk" src={autodeskLogo} />
+          </a>
+          <h3 className="title">Autodesk</h3>
+          <p className="bolder sizeSmall">
+            Apr 2021 - Nov 2022 • Contract Position • Senior UX/UI Designer
+            Developer
+          </p>
+          <p className="desc">
+            <ul className="custom">
+              <li>
+                UX/UI designer helping with solutioning on complex construction
+                management products
+              </li>
+              <li>Ideation and exploration</li>
+              <li>Wireframing and Prototyping</li>
+              <li>
+                Simple solution of complex problems through different ways of UX
+                mapping
+              </li>
+              <li>
+                Creation of bespoke Wireframe library and file structure
+                template
+              </li>
+              <li>
+                Mentoring the team on Figma as a design and prototyping tool
+              </li>
+            </ul>
+          </p>
+        </li>
         <li>
           <a
             href="https://www.sainsburys.co.uk"
@@ -35,7 +116,7 @@ export default function ResumeExperience(props) {
             Developer
           </p>
           <p className="desc">
-            Sainsburys / Argos group is UK's leading retail entity well known to
+            {/* Sainsburys / Argos group is UK's leading retail entity well known to
             each household. I'm working as a sole UX/UI designer on an
             internally used Application which enables agents at call centre to
             carry out operations facilitating end customers. My responsibilities
@@ -46,7 +127,31 @@ export default function ResumeExperience(props) {
             stack which involves React JS, Typescript, Redux and taking the
             ownership of components and assets in Storybook js. Working closely
             with Product Owners and BAs and with dev knowledge pointing out the
-            build feasibility and potential dev problems early on.
+            build feasibility and potential dev problems early on. */}
+            <ul className="custom">
+              <li>
+                A sole UX/UI designer on an internally used Application which
+                enables agents at call centre to carry out operations
+                facilitating end customers
+              </li>
+              <li>
+                Carrying out user research along with business requirement
+                gathering and producing prototypes showing an optimised user
+                experience and business value
+              </li>
+              <li>Developing agent facing UI design system</li>
+              <li>
+                Providing a first class support on the front end needs working
+                with the dev team on the stack which involves React JS,
+                Typescript, Redux and taking the ownership of components and
+                assets in Storybook js
+              </li>
+              <li>
+                Working closely with Product Owners and BAs and with dev
+                knowledge pointing out the build feasibility and potential dev
+                limitations early on
+              </li>
+            </ul>
           </p>
         </li>
         <li>
@@ -83,8 +188,8 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Affinion International</h3>
           <p className="bolder sizeSmall">
-            Jul 2014 - Nov 2018 • Contract Position • LeadUI-UX Designer /
-            Front-End Developer{' '}
+            Jul 2014 - Nov 2018 • Contract Position • Lead UI-UX Designer /
+            Front-End Developer
           </p>
           <p className="desc">
             Affinion International is an affiliate marketing company mainly
