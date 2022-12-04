@@ -10,7 +10,7 @@
 
 .hireme {
     position: absolute;
-    left: 50%;
+    right: 70%;
     top: -240px;
     @include breakpoint(mobileonly) {
         left: 15%;

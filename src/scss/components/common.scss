@@ -58,7 +58,7 @@
     &.showcase {
         background-color: $primaryColorLight;
         position: relative;
-        padding-bottom: 100px;
+        padding-bottom: 150px;
         @include breakpoint(mobileonly) {
             padding-bottom: 200px;
         }
