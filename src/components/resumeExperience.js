@@ -30,7 +30,8 @@ export default function ResumeExperience(props) {
           <p className="desc">
             <ul className="custom">
               <li>
-              Setup and maintenance of Design Systems/UI kits for multiple brands
+                Setup and maintenance of Design Systems/UI kits for multiple
+                brands
               </li>
               <li>
                 Mentoring and training the design team through workshops and
@@ -51,7 +52,7 @@ export default function ResumeExperience(props) {
               </li>
               <li>
                 Defining and testing efficient and coherent ways of working and
-                collaboration workflow
+                collaborating workflow
               </li>
               <li>Research and User testing</li>
               <li>Figma plugin development</li>
@@ -74,7 +75,8 @@ export default function ResumeExperience(props) {
           <p className="desc">
             <ul className="custom">
               <li>
-              Helping with finding solutions for complex cloud based construction management products
+                Helping with finding solutions for complex cloud based
+                construction management products
               </li>
               <li>Ideation and exploration</li>
               <li>Wireframing and Prototyping</li>
