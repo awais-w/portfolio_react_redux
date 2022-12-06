@@ -42,19 +42,6 @@ export default function ResumeExperience(props) {
                 collaboration workflow
               </li>
               <li>Research and User testing</li>
-              <li>
-                Figma plugin developmentSetup and maintainence of Design
-                Systems/UI kits for multiple brands
-              </li>
-              <li>
-                Mentoring and training the design team through workshops and
-                learning sessions
-              </li>
-              <li>
-                Defining and testing efficient and coherent ways of working and
-                collaborating workflow
-              </li>
-              <li>Research and User testing</li>
               <li>Figma plugin development</li>
             </ul>
           </p>
