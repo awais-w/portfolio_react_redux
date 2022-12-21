@@ -56,7 +56,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Autodesk</h3>
           <p className="bolder sizeSmall">
-            Apr 2021 - Nov 2022 • Contract Position • Senior UX/UI Designer
+            Apr 2021 - Nov 2021 • Contract Position • Senior UX/UI Designer
             Developer
           </p>
           <p className="desc">
