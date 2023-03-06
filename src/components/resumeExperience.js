@@ -25,10 +25,13 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">British gas</h3>
           <p className="bolder sizeSmall">
-            Nov 2021 - Present • Contract Position • Lead Product Designer
+            Nov 2021 - Mar 2023 • Contract Position • Lead Product Designer
           </p>
           <p className="desc">
             <ul className="custom">
+              <li>
+                Design ops setup consisting of devising team/project structure, organising ways of working and design processes.
+              </li>
               <li>
                 Setup and maintenance of Design Systems/UI kits for multiple
                 brands
