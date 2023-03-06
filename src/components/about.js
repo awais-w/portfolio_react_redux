@@ -22,7 +22,7 @@ export default function About() {
               <b>Design System / UI Kit</b>.<br />I help gather business and
               user requirements and translate them into{' '}
               <b>testable prototypes</b>, design visually aesthetic user
-              interfaces and convert them into
+              interfaces and convert them into{' '}
               <b>responsive and interactive</b> web apps using modern{' '}
               <b>Javascript</b> frameworks and libraries.
             </p>
