@@ -9,10 +9,9 @@ export default function SubNav(props) {
     return (
         <ul className={`${ulClass} ${props.sticky.resume?"sticky":null}`}>
             <li className={props.activeResumeSection.about?activeClass:null}><AnchorLink offset={offset} href="#about">About</AnchorLink></li>
-            <li className={props.activeResumeSection.skills?activeClass:null}><AnchorLink offset={offset} href="#skills">Skills</AnchorLink></li>
             <li className={props.activeResumeSection.experience?activeClass:null}><AnchorLink offset={offset} href="#experience">Experience</AnchorLink></li>
             <li className={props.activeResumeSection.education?activeClass:null}><AnchorLink offset={offset} href="#education">Education</AnchorLink></li>
+            <li className={props.activeResumeSection.skills?activeClass:null}><AnchorLink offset={offset} href="#skills">Skills</AnchorLink></li>
         </ul>
-    );
-    
+    );   
 }

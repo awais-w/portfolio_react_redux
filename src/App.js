@@ -41,8 +41,9 @@ class App extends Component {
 
   handleStickies() {
     let self = this;
-    const tabsBar = document.querySelector('.showcase .tabs');
-    let showcaseOffset = offset(tabsBar).top - 55;
+    // const tabsBar = document.querySelector('.showcase .tabs');
+    // let showcaseOffset = offset(tabsBar).top - 55;
+    let aboutOffset = offset(document.getElementById('about')).top;
     const resumeSection = document.getElementById('resumeSection');
     const aboutSection = document.getElementById('about');
     const skillsSection = document.getElementById('skills');
@@ -63,32 +64,32 @@ class App extends Component {
         if (self.props.nav) self.props.navNormal();
       }
       // if (window.scrollY > showcaseOffset && resumeNavOffset > 250) {
-      if (window.scrollY > showcaseOffset) {
-        if (!self.props.showcase) self.props.showcaseSticky();
-      } else {
-        if (self.props.showcase) self.props.showcaseNormal();
-      }
+      // if (window.scrollY > aboutOffset) {
+      //   if (!self.props.showcase) self.props.showcaseSticky();
+      // } else {
+      //   if (self.props.showcase) self.props.showcaseNormal();
+      // }
       if (resumeNavOffset < 0) {
         if (!self.props.resume) self.props.resumeSticky();
       } else {
         if (self.props.resume) self.props.resumeNormal();
       }
-      if (aboutTop < 0 && skillsTop > 0) {
+      if (aboutTop < 0 && experienceTop > 0) {
         if (!self.props.activeResumeSection.about) self.props.aboutActive(true);
       } else {
         if (self.props.activeResumeSection.about) self.props.aboutActive(false);
-      }
-      if (skillsTop < 0 && experienceTop > 0) {
-        if (!self.props.activeResumeSection.skills)
-          self.props.skillsActive(true);
       }
       if (experienceTop < 0 && educationTop > 0) {
         if (!self.props.activeResumeSection.experience)
           self.props.experienceActive(true);
       }
-      if (educationTop < 0) {
+      if (educationTop < 0 && skillsTop > 0) {
         if (!self.props.activeResumeSection.education)
           self.props.educationActive(true);
+      }
+      if (skillsTop < 0) {
+        if (!self.props.activeResumeSection.skills)
+          self.props.skillsActive(true);
       }
     };
   }

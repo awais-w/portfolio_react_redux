@@ -16,10 +16,8 @@ export default function About() {
               Hi! I'm Awais,
             </h1>
             <p className="desc marTop sizeMedium">
-              I'm a <b>Digital Experience Designer</b> /{' '}
-              <b>Creative UI Developer</b>. <br />I have expertise in
-              commissioning and maintaining a brand's{' '}
-              <b>Design System / UI Kit</b>.<br />I help gather business and
+              I'm a <b>Senior full stack Designer</b> {' '} having expertise is <b>UI design</b>, <b>Experience design</b> and hands on experience with <b>Front end development</b>. <br/>I specialise in commissioning and maintaining brand's{' '}
+              <b>Design System / UI Kit</b> and also <b>Design operations</b> focusing on processes, tools and ways of working.<br />I help gather business and
               user requirements and translate them into{' '}
               <b>testable prototypes</b>, design visually aesthetic user
               interfaces and convert them into{' '}

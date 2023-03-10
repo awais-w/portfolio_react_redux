@@ -13,10 +13,6 @@ import {
     EDUCATION_ACTIVE
 } from './constants';
 
-// export const navSticky = {
-//     type: NAV_STICKY
-// }
-
 export const navSticky = () => ({ type: NAV_STICKY });
 export const navNormal = () => ({ type: NAV_NORMAL });
 export const showcaseSticky = () => ({ type: SHOWCASE_STICKY });

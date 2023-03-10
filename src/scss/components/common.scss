@@ -29,6 +29,7 @@
         }
     }
     &.showcase-sep {
+        margin-top: -40px;
         .title-img {
             margin-bottom: -194px;
             @include breakpoint(mobileonly) {
