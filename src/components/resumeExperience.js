@@ -30,7 +30,8 @@ export default function ResumeExperience(props) {
           <p className="desc">
             <ul className="custom">
               <li>
-                Design ops setup consisting of devising team/project structure, organising ways of working and design processes.
+                Design ops setup consisting of devising team/project structure,
+                organising ways of working and design processes.
               </li>
               <li>
                 Setup and maintenance of Design Systems/UI kits for multiple
@@ -60,7 +61,6 @@ export default function ResumeExperience(props) {
           <h3 className="title">Autodesk</h3>
           <p className="bolder sizeSmall">
             Apr 2021 - Nov 2021 • Contract Position • Senior UX/UI Designer
-            Developer
           </p>
           <p className="desc">
             <ul className="custom">
@@ -203,8 +203,8 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Superdrug</h3>
           <p className="bolder sizeSmall">
-            Jul 2012 - Jul 2014 • Contract Position • Senior Front-end Developer
-            / UI Designer
+            Jul 2012 - Jul 2014 • Contract Position • Front-end Developer / UI
+            Designer
           </p>
           <p className="desc">
             One of the largest health and beauty retailer, at Superdrug I worked

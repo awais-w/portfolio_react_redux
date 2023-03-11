@@ -5,7 +5,7 @@ import Header from './layout/Header';
 import Pages from './layout/Pages';
 import Footer from './layout/Footer';
 import PageOverlay from './layout/PageOverlay';
-import { offset } from './utilities';
+// import { offset } from './utilities';
 import { connect } from 'react-redux';
 import {
   navSticky,
@@ -43,7 +43,7 @@ class App extends Component {
     let self = this;
     // const tabsBar = document.querySelector('.showcase .tabs');
     // let showcaseOffset = offset(tabsBar).top - 55;
-    let aboutOffset = offset(document.getElementById('about')).top;
+    // let aboutOffset = offset(document.getElementById('about')).top;
     const resumeSection = document.getElementById('resumeSection');
     const aboutSection = document.getElementById('about');
     const skillsSection = document.getElementById('skills');

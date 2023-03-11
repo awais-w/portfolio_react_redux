@@ -27,6 +27,7 @@ class Showcase extends Component {
   }
 
   handleThumbClick(id) {
+    console.log(id);
     this.props.showDetails(id);
   }
 
@@ -52,8 +53,7 @@ class Showcase extends Component {
             </Row>
 
             <p className="textCenter marTop marBottomTwice">
-              Some of the examples of my recent work across the 3 disciplines
-              can be seen below
+              Here are some of the case studies of my recent work
             </p>
 
             <Tabs

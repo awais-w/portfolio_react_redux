@@ -53,13 +53,14 @@
                     }
                     button {
                         color: $lightColor;
-                        padding: 5px $defaultGap*2;
+                        padding: 16px;
                         border: 1px solid $lightColor;
                         border-radius: 5px;
-                        background: none;
-                        margin-top: 10px;
+                        background-color: rgba(255, 255, 255, 0.3);
+                        margin-top: 16px;
                         font-size: $fontSmall;
                         position: relative;
+                        width: 100%;
                         cursor: pointer;
                         &:after {
                             font-family: 'Material Icons';
@@ -68,7 +69,6 @@
                             margin-left: -1.3em;
                             width: 1.3em;
                             position: absolute;
-                            top: 5px;
                             right: 10px;
                             font-size: 16px;
                         }

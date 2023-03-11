@@ -32,6 +32,13 @@
         h1.title {
             color: $primaryColorDarker;
         }
+
+        iframe.CS_iframe {
+            height: 100dvh;
+            border: 0;
+            border-bottom: 4px solid #535659; 
+        }
+
         .sectors {
             li {
                 border: 1px solid $primaryColorDark;

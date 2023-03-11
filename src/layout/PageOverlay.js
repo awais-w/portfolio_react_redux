@@ -13,6 +13,7 @@ import { CariparmaDev } from '../detailPages/cariparma_dev';
 import { UlsterDev } from '../detailPages/ulster_dev';
 import { UlsterUi } from '../detailPages/ulster_ui';
 import { NatwestUi } from '../detailPages/natwest_ui';
+import { BGRefresh } from '../detailPages/bg_brandRefresh';
 import { RbsUi } from '../detailPages/rbs_ui';
 import { VodafoneUx } from '../detailPages/vodafone_ux';
 import { RbsUx } from '../detailPages/rbs_ux';
@@ -82,6 +83,7 @@ class PageOverlay extends Component {
             ulster_dev: UlsterDev,
             ulster_ui: UlsterUi,
             natwest_ui: NatwestUi,
+            bg_brandRefresh: BGRefresh,
             rbs_ui: RbsUi,
             vodafone_ux: VodafoneUx,
             rbs_ux: RbsUx,
