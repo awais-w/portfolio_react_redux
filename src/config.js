@@ -21,6 +21,7 @@ import js from './images/tools/js.png';
 import knockout from './images/tools/knockout.png';
 import less from './images/tools/less.png';
 import materialize from './images/tools/materialize.png';
+import miro from './images/tools/miro.png';
 import mobx from './images/tools/mobx.png';
 import node from './images/tools/node.png';
 import npm from './images/tools/npm.png';
@@ -33,6 +34,7 @@ import sass from './images/tools/sass.png';
 import sketch from './images/tools/sketch.png';
 import storybook from './images/tools/storybook.png';
 import ts from './images/tools/typescript.png';
+import userzoom from './images/tools/userzoom.png';
 import uxpin from './images/tools/uxpin.png';
 import vue from './images/tools/vue.png';
 import webpack from './images/tools/webpack.png';
@@ -64,6 +66,7 @@ export {
     knockout,
     less,
     materialize,
+    miro,
     mobx,
     node,
     npm,
@@ -76,6 +79,7 @@ export {
     sketch,
     storybook,
     ts,
+    userzoom,
     uxpin,
     vue,
     webpack,

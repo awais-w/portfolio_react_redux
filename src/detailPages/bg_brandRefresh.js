@@ -7,7 +7,7 @@ export const BGRefresh = () => {
       <Container>
         <iframe
           title="BG Case Study"
-          src="../CaseStudy_BritishGas.pdf"
+          src="../CaseStudy_BritishGas.pdf#view=FitH&toolbar=0"
           width="100%"
           className="CS_iframe"
         ></iframe>

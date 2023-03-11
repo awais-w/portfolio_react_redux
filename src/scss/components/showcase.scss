@@ -88,6 +88,7 @@
                 opacity: 1;
                 .content {
                     transform: scale(1);
+                    user-select: none;
                 }
             }
         }

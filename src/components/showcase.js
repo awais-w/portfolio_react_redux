@@ -87,7 +87,7 @@ class Showcase extends Component {
                             <div className="content">
                               <h2>{item.title}</h2>
                               <p>{item.shortDesc}</p>
-                              <p>{item.tools}</p>
+                              
 
                               <div className="industry">
                                 <span>Industry:&nbsp;</span>
@@ -97,6 +97,8 @@ class Showcase extends Component {
                                   })}
                                 </ul>
                               </div>
+
+                              {/* <p>{item.tools}</p> */}
 
                               <button
                                 id={item.id}

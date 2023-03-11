@@ -82,8 +82,8 @@ export const initialState = {
                     title: 'British Gas - Brand Refresh',
                     thumb: '../images/thumbs/bg_brandRefresh.jpg',
                     color: '',
-                    shortDesc: 'A visual identity refresh project for British Gas brand',
-                    tools: 'Tools used: Adobe analytics, Miro, Figma, Userzoom',
+                    shortDesc: 'A visual identity refresh project for British Gas brand involving Research, Analysis, Ideation, UI design and Testing',
+                    tools: 'Research, Analysis, Ideation, UI design, Testing',
                     industry: ['Energy']
                 },{
                     id: 'natwest_ui',
