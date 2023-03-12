@@ -4,21 +4,21 @@ import PropTypes from 'prop-types';
 // import Panel from 'muicss/lib/react/Panel';
 
 import { Default as DefaultDetailsPage } from '../detailPages/default';
-import { RbsDev } from '../detailPages/rbs_dev';
-import { AccoladeDev } from '../detailPages/accolade_dev';
+import { RBSTravel } from '../detailPages/rbs_travel';
+// import { AccoladeDev } from '../detailPages/accolade_dev';
 import { AccoladeUi } from '../detailPages/accolade_ui';
-import { NatwestDev } from '../detailPages/natwest_dev';
-import { SuperdrugDev } from '../detailPages/superdrug_dev';
-import { CariparmaDev } from '../detailPages/cariparma_dev';
-import { UlsterDev } from '../detailPages/ulster_dev';
-import { UlsterUi } from '../detailPages/ulster_ui';
+// import { NatwestDev } from '../detailPages/natwest_dev';
+// import { SuperdrugDev } from '../detailPages/superdrug_dev';
+// import { CariparmaDev } from '../detailPages/cariparma_dev';
+// import { UlsterDev } from '../detailPages/ulster_dev';
+// import { UlsterUi } from '../detailPages/ulster_ui';
 import { NatwestUi } from '../detailPages/natwest_ui';
 import { BGRefresh } from '../detailPages/bg_brandRefresh';
-import { RbsUi } from '../detailPages/rbs_ui';
-import { VodafoneUx } from '../detailPages/vodafone_ux';
-import { RbsUx } from '../detailPages/rbs_ux';
-import { MastercardUx } from '../detailPages/mastercard_ux';
-import { AgentportalUx } from '../detailPages/agentportal_ux';
+// import { RbsUi } from '../detailPages/rbs_ui';
+// import { VodafoneUx } from '../detailPages/vodafone_ux';
+// import { RbsUx } from '../detailPages/rbs_ux';
+// import { MastercardUx } from '../detailPages/mastercard_ux';
+// import { AgentportalUx } from '../detailPages/agentportal_ux';
 
 import { connect } from 'react-redux';
 import { hideDetails } from '../store/actions';
@@ -74,21 +74,21 @@ class PageOverlay extends Component {
 
     render() {
         const projects = {
-            rbs_dev: RbsDev,
-            accolade_dev: AccoladeDev,
+            // accolade_dev: AccoladeDev,
             accolade_ui: AccoladeUi,
-            natwest_dev: NatwestDev,
-            superdrug_dev: SuperdrugDev,
-            cariparma_dev: CariparmaDev,
-            ulster_dev: UlsterDev,
-            ulster_ui: UlsterUi,
+            // natwest_dev: NatwestDev,
+            // superdrug_dev: SuperdrugDev,
+            // cariparma_dev: CariparmaDev,
+            // ulster_dev: UlsterDev,
+            // ulster_ui: UlsterUi,
             natwest_ui: NatwestUi,
             bg_brandRefresh: BGRefresh,
-            rbs_ui: RbsUi,
-            vodafone_ux: VodafoneUx,
-            rbs_ux: RbsUx,
-            mastercard_ux: MastercardUx,
-            agentportal_ux: AgentportalUx,
+            rbs_travel: RBSTravel,
+            // rbs_ui: RbsUi,
+            // vodafone_ux: VodafoneUx,
+            // rbs_ux: RbsUx,
+            // mastercard_ux: MastercardUx,
+            // agentportal_ux: AgentportalUx,
             default_page: DefaultDetailsPage
         };
         const TagName = projects[this.props.clickedThumb.id] || projects['default_page'];

@@ -86,6 +86,14 @@ export const initialState = {
                     tools: 'Research, Analysis, Ideation, UI design, Testing',
                     industry: ['Energy']
                 },{
+                    id: 'rbs_travel',
+                    title: 'RBS Travel',
+                    thumb: '../images/thumbs/rbs_travel.jpg',
+                    color: '',
+                    shortDesc: 'A tarvel booking website for RBS customers giving acess to some exclusive travel related offers',
+                    tools: 'Tools used: Illustrator, Photoshop, Invision',
+                    industry: ['Travel','Banking','Loyalty']
+                },{
                     id: 'natwest_ui',
                     title: 'Natwest Premier App',
                     thumb: '../images/thumbs/natwest_ui.jpg',
@@ -94,15 +102,6 @@ export const initialState = {
                     tools: 'Tools used: Sketch, Illustrator, Photoshop, Zeplin',
                     industry: ['Banking','Loyalty']
                 },{
-                    id: 'rbs_ui',
-                    title: 'RBS Travel',
-                    thumb: '../images/thumbs/rbs_ui.jpg',
-                    color: '',
-                    shortDesc: 'A tarvel booking website for RBS customers giving acess to some exclusive travel related offers',
-                    tools: 'Tools used: Illustrator, Photoshop, Invision',
-                    industry: ['Travel','Banking','Loyalty']
-                }
-                ,{
                     id: 'accolade_ui',
                     title: 'Accolade Bank Benefits hub',
                     thumb: '../images/thumbs/accolade_dev.jpg',
