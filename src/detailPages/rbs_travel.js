@@ -6,7 +6,7 @@ export const RBSTravel = () => {
     <React.Fragment>
       <Container>
         <iframe
-          title="BG Case Study"
+          title="RBS Case Study"
           src="../CaseStudy_RBS.pdf#view=FitH&toolbar=0"
           width="100%"
           className="CS_iframe"

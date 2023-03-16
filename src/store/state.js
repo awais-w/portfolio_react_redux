@@ -94,6 +94,14 @@ export const initialState = {
                     tools: 'Tools used: Illustrator, Photoshop, Invision',
                     industry: ['Travel','Banking','Loyalty']
                 },{
+                    id: 'centrica_designOps',
+                    title: 'Design Ops Setup',
+                    thumb: '../images/thumbs/centrica_designOps.jpg',
+                    color: '',
+                    shortDesc: 'An initiative to streamline design operations in the design domain and improve the quality of design ecosystem',
+                    tools: 'Tools used: Sketch, Illustrator, Photoshop, Zeplin',
+                    industry: ['Energy']
+                },{
                     id: 'natwest_ui',
                     title: 'Natwest Premier App',
                     thumb: '../images/thumbs/natwest_ui.jpg',

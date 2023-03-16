@@ -14,6 +14,7 @@ import { AccoladeUi } from '../detailPages/accolade_ui';
 // import { UlsterUi } from '../detailPages/ulster_ui';
 import { NatwestUi } from '../detailPages/natwest_ui';
 import { BGRefresh } from '../detailPages/bg_brandRefresh';
+import { CentricaDesOps } from '../detailPages/centrica_designOps';
 // import { RbsUi } from '../detailPages/rbs_ui';
 // import { VodafoneUx } from '../detailPages/vodafone_ux';
 // import { RbsUx } from '../detailPages/rbs_ux';
@@ -84,6 +85,7 @@ class PageOverlay extends Component {
             natwest_ui: NatwestUi,
             bg_brandRefresh: BGRefresh,
             rbs_travel: RBSTravel,
+            centrica_designOps: CentricaDesOps,
             // rbs_ui: RbsUi,
             // vodafone_ux: VodafoneUx,
             // rbs_ux: RbsUx,
