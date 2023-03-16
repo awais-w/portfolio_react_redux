@@ -95,7 +95,7 @@ export const initialState = {
                     industry: ['Travel','Banking','Loyalty']
                 },{
                     id: 'centrica_designOps',
-                    title: 'Design Ops Setup',
+                    title: 'Centrica - Design Ops Setup',
                     thumb: '../images/thumbs/centrica_designOps.jpg',
                     color: '',
                     shortDesc: 'An initiative to streamline design operations in the design domain and improve the quality of design ecosystem',
