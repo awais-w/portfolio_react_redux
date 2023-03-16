@@ -30,11 +30,15 @@ class App extends Component {
   }
 
   handleQS() {
-    const section = document.location.search;
+    const section = window.location.href;
     if (section.length) {
-      let sectionID = section.split('=')[1];
-      if (document.getElementById(sectionID)) {
-        document.getElementById(sectionID).click();
+      if (section.includes("=")) {
+        let sectionID = section.split('=')[1];
+        if (document.getElementById(sectionID)) {
+          document.getElementById(sectionID).click();
+        }
+      } else if (section.includes("#showcase")) {
+        document.querySelector('[href="#showcaseSection"]').click();
       }
     }
   }
