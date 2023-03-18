@@ -25,7 +25,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">British gas</h3>
           <p className="bolder sizeSmall">
-            Nov 2021 - Mar 2023 • Contract Position • Lead Product Designer
+            Lead Product Designer • Contract Position • Nov 2021 - Mar 2023
           </p>
           <p className="desc">
             <ul className="custom">
@@ -60,7 +60,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Autodesk</h3>
           <p className="bolder sizeSmall">
-            Apr 2021 - Nov 2021 • Contract Position • Senior UX/UI Designer
+          Senior UX/UI Designer • Contract Position • Apr 2021 - Nov 2021
           </p>
           <p className="desc">
             <ul className="custom">
@@ -102,8 +102,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Sainsbury's / Argos</h3>
           <p className="bolder sizeSmall">
-            Mar 2019 - Apr 2021 • Contract Position • Lead UX/UI Designer / UI
-            Developer
+          Lead UX/UI Designer / UI Developer • Contract Position • Mar 2019 - Apr 2021
           </p>
           <p className="desc">
             {/* Sainsburys / Argos group is UK's leading retail entity well known to
@@ -152,7 +151,7 @@ export default function ResumeExperience(props) {
           />
           <h3 className="title">Semantic Integration</h3>
           <p className="bolder sizeSmall">
-            Jan 2019 - Feb 2019 • Contract Position • Lead UX/UI Designer
+          Lead UX/UI Designer • Contract Position • Jan 2019 - Feb 2019
           </p>
           <p className="desc">
             Semantic Integration is a Data-driven Solutions and Consulting
@@ -178,8 +177,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Affinion International</h3>
           <p className="bolder sizeSmall">
-            Jul 2014 - Nov 2018 • Contract Position • Lead UI-UX Designer /
-            Front-End Developer
+          Lead UI-UX Designer / Front-End Developer • Contract Position • Jul 2014 - Nov 2018
           </p>
           <p className="desc">
             Affinion International is an affiliate marketing company mainly
@@ -203,8 +201,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Superdrug</h3>
           <p className="bolder sizeSmall">
-            Jul 2012 - Jul 2014 • Contract Position • Front-end Developer / UI
-            Designer
+          Front-end Developer / UI Designer • Contract Position • Jul 2012 - Jul 2014
           </p>
           <p className="desc">
             One of the largest health and beauty retailer, at Superdrug I worked
@@ -225,7 +222,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Coral</h3>
           <p className="bolder sizeSmall">
-            May 2012 - Jun 2012 • Contract Position • Visual Designer
+          Visual Designer • Contract Position • May 2012 - Jun 2012
           </p>
           <p className="desc">
             Coral is a leading European betting and gaming company with strong
@@ -247,7 +244,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Kaplan International</h3>
           <p className="bolder sizeSmall">
-            Aug 2010 - Apr 2012 • Permanent Position • UI Designer/Developer
+          UI Designer/Developer • Permanent Position • Aug 2010 - Apr 2012
           </p>
           <p className="desc">
             Kaplan is a premier provider of educational services for
@@ -274,7 +271,7 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-            Aug 2010 • Contract Position • Flash Designer
+          Flash Designer • Contract Position • Aug 2010
           </p>
         </li>
         <li>
@@ -288,7 +285,7 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-            May 2010 - Jul 2010 • Contract Position • UI Designer/Developer
+          UI Designer/Developer • Contract Position • May 2010 - Jul 2010
           </p>
         </li>
         {/* <li>
@@ -306,7 +303,7 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-            Feb 2010 - Apr 2010 • Contract Position • UI Designer/Flash Designer
+          UI Designer/Flash Designer • Contract Position • Feb 2010 - Apr 2010
           </p>
         </li>
         <li>
@@ -320,7 +317,7 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-            Jul 2009 - Feb 2010 • Contract Position • UI Designer/Flash Designer
+          UI Designer/Flash Designer • Contract Position • Jul 2009 - Feb 2010
           </p>
         </li>
         <li>
@@ -334,8 +331,8 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-            Apr 2007 - Oct 2008 • Permanent Position • Flash
-            Designer/Developer/Web Designer
+          Flash
+            Designer/Developer/Web Designer • Permanent Position • Apr 2007 - Oct 2008
           </p>
         </li>
       </ul>
