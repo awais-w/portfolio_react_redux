@@ -35,18 +35,18 @@ export default function ResumeExperience(props) {
               </li>
               <li>
                 Setup and maintenance of Design Systems/UI kits for multiple
-                brands
+                brands.
               </li>
               <li>
                 Mentoring and training the design team through workshops and
-                learning sessions
+                learning sessions.
               </li>
               <li>
                 Defining and testing efficient and coherent ways of working and
-                collaboration workflow
+                collaboration workflow.
               </li>
-              <li>Research and User testing</li>
-              <li>Figma plugin development</li>
+              <li>Research and User testing.</li>
+              <li>Figma plugin development.</li>
             </ul>
           </p>
         </li>
@@ -60,26 +60,26 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Autodesk</h3>
           <p className="bolder sizeSmall">
-          Senior UX/UI Designer • Contract Position • Apr 2021 - Nov 2021
+            Senior UX/UI Designer • Contract Position • Apr 2021 - Nov 2021
           </p>
           <p className="desc">
             <ul className="custom">
               <li>
                 Helping with finding solutions for complex cloud based
-                construction management products
+                construction management products.
               </li>
-              <li>Ideation and exploration</li>
-              <li>Wireframing and Prototyping</li>
+              <li>Ideation and exploration.</li>
+              <li>Wireframing and Prototyping.</li>
               <li>
                 Simple solution of complex problems through different ways of UX
-                mapping
+                mapping.
               </li>
               <li>
                 Creation of bespoke Wireframe library and file structure
-                template
+                template.
               </li>
               <li>
-                Mentoring the team on Figma as a design and prototyping tool
+                Mentoring the team on Figma as a design and prototyping tool.
               </li>
             </ul>
           </p>
@@ -102,7 +102,8 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Sainsbury's / Argos</h3>
           <p className="bolder sizeSmall">
-          Lead UX/UI Designer / UI Developer • Contract Position • Mar 2019 - Apr 2021
+            Lead UX/UI Designer / UI Developer • Contract Position • Mar 2019 -
+            Apr 2021
           </p>
           <p className="desc">
             {/* Sainsburys / Argos group is UK's leading retail entity well known to
@@ -121,24 +122,24 @@ export default function ResumeExperience(props) {
               <li>
                 A sole UX/UI designer on an internally used Application which
                 enables agents at call centre to carry out operations
-                facilitating end customers
+                facilitating end customers.
               </li>
               <li>
                 Carrying out user research along with business requirement
                 gathering and producing prototypes showing an optimised user
-                experience and business value
+                experience and business value.
               </li>
-              <li>Developing agent facing UI design system</li>
+              <li>Developing agent facing UI design system.</li>
               <li>
                 Providing a first class support on the front end needs working
                 with the dev team on the stack which involves React JS,
                 Typescript, Redux and taking the ownership of components and
-                assets in Storybook js
+                assets in Storybook js.
               </li>
               <li>
                 Working closely with Product Owners and BAs and with dev
                 knowledge pointing out the build feasibility and potential dev
-                limitations early on
+                limitations early on.
               </li>
             </ul>
           </p>
@@ -151,7 +152,7 @@ export default function ResumeExperience(props) {
           />
           <h3 className="title">Semantic Integration</h3>
           <p className="bolder sizeSmall">
-          Lead UX/UI Designer • Contract Position • Jan 2019 - Feb 2019
+            Lead UX/UI Designer • Contract Position • Jan 2019 - Feb 2019
           </p>
           <p className="desc">
             Semantic Integration is a Data-driven Solutions and Consulting
@@ -177,7 +178,8 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Affinion International</h3>
           <p className="bolder sizeSmall">
-          Lead UI-UX Designer / Front-End Developer • Contract Position • Jul 2014 - Nov 2018
+            Lead UI-UX Designer / Front-End Developer • Contract Position • Jul
+            2014 - Nov 2018
           </p>
           <p className="desc">
             Affinion International is an affiliate marketing company mainly
@@ -201,7 +203,8 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Superdrug</h3>
           <p className="bolder sizeSmall">
-          Front-end Developer / UI Designer • Contract Position • Jul 2012 - Jul 2014
+            Front-end Developer / UI Designer • Contract Position • Jul 2012 -
+            Jul 2014
           </p>
           <p className="desc">
             One of the largest health and beauty retailer, at Superdrug I worked
@@ -222,7 +225,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Coral</h3>
           <p className="bolder sizeSmall">
-          Visual Designer • Contract Position • May 2012 - Jun 2012
+            Visual Designer • Contract Position • May 2012 - Jun 2012
           </p>
           <p className="desc">
             Coral is a leading European betting and gaming company with strong
@@ -244,7 +247,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">Kaplan International</h3>
           <p className="bolder sizeSmall">
-          UI Designer/Developer • Permanent Position • Aug 2010 - Apr 2012
+            UI Designer/Developer • Permanent Position • Aug 2010 - Apr 2012
           </p>
           <p className="desc">
             Kaplan is a premier provider of educational services for
@@ -271,7 +274,7 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-          Flash Designer • Contract Position • Aug 2010
+            Flash Designer • Contract Position • Aug 2010
           </p>
         </li>
         <li>
@@ -285,7 +288,7 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-          UI Designer/Developer • Contract Position • May 2010 - Jul 2010
+            UI Designer/Developer • Contract Position • May 2010 - Jul 2010
           </p>
         </li>
         {/* <li>
@@ -303,7 +306,7 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-          UI Designer/Flash Designer • Contract Position • Feb 2010 - Apr 2010
+            UI Designer/Flash Designer • Contract Position • Feb 2010 - Apr 2010
           </p>
         </li>
         <li>
@@ -317,7 +320,7 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-          UI Designer/Flash Designer • Contract Position • Jul 2009 - Feb 2010
+            UI Designer/Flash Designer • Contract Position • Jul 2009 - Feb 2010
           </p>
         </li>
         <li>
@@ -331,8 +334,8 @@ export default function ResumeExperience(props) {
             </a>
           </h3>
           <p className="bolder sizeSmall">
-          Flash
-            Designer/Developer/Web Designer • Permanent Position • Apr 2007 - Oct 2008
+            Flash Designer/Developer/Web Designer • Permanent Position • Apr
+            2007 - Oct 2008
           </p>
         </li>
       </ul>
