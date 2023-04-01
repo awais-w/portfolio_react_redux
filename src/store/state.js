@@ -78,6 +78,14 @@ export const initialState = {
             caption: "CASE STUDIES",
             projects : [
                 {
+                    id: 'spark',
+                    title: 'Spark Design System',
+                    thumb: '../images/thumbs/spark.jpg',
+                    color: '',
+                    shortDesc: 'A detailed case study on how a scalable design system for a new British Gas product was created from scratch',
+                    tools: 'Research, Planning, Management, UI design, Testing',
+                    industry: ['Utility']
+                },{
                     id: 'bg_brandRefresh',
                     title: 'British Gas - Brand Refresh',
                     thumb: '../images/thumbs/bg_brandRefresh.jpg',
@@ -95,7 +103,7 @@ export const initialState = {
                     industry: ['Travel','Banking','Loyalty']
                 },{
                     id: 'centrica_designOps',
-                    title: 'Centrica - Design Ops Setup',
+                    title: 'Centrica -Design Ops Setup',
                     thumb: '../images/thumbs/centrica_designOps.jpg',
                     color: '',
                     shortDesc: 'An initiative to streamline design operations in the design domain and improve the quality of design ecosystem',

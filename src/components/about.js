@@ -17,7 +17,7 @@ export default function About() {
             </h1>
             <div className="desc marTop sizeMedium">
               <p>
-                I'm a <b>Senior full stack Designer</b> having expertise in{' '}
+                I'm a <b>Senior Product Designer</b> having expertise in{' '}
                 <b>UI design</b>, <b>Experience design</b> and hands on
                 experience with <b>Front end development</b>.{' '}
               </p>

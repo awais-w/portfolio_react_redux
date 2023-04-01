@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 // import Panel from 'muicss/lib/react/Panel';
 
 import { Default as DefaultDetailsPage } from '../detailPages/default';
+import { SparkDS } from '../detailPages/spark';
 import { RBSTravel } from '../detailPages/rbs_travel';
 // import { AccoladeDev } from '../detailPages/accolade_dev';
 import { AccoladeUi } from '../detailPages/accolade_ui';
@@ -83,6 +84,7 @@ class PageOverlay extends Component {
             // ulster_dev: UlsterDev,
             // ulster_ui: UlsterUi,
             natwest_ui: NatwestUi,
+            spark: SparkDS,
             bg_brandRefresh: BGRefresh,
             rbs_travel: RBSTravel,
             centrica_designOps: CentricaDesOps,
