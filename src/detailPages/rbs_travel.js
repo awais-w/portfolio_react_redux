@@ -7,7 +7,7 @@ export const RBSTravel = () => {
       <Container>
         <iframe
           title="RBS Case Study"
-          src="../CaseStudy_RBS.pdf#view=FitH&toolbar=0"
+          src="../CaseStudy_RBS.pdf#view=FitH"
           width="100%"
           className="CS_iframe"
         ></iframe>

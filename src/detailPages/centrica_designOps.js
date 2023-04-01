@@ -7,7 +7,7 @@ export const CentricaDesOps = () => {
       <Container>
         <iframe
           title="Centrica Case Study"
-          src="../CaseStudy_Centrica.pdf#view=FitH&toolbar=0"
+          src="../CaseStudy_Centrica.pdf#view=FitH"
           width="100%"
           className="CS_iframe"
         ></iframe>
