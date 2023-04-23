@@ -9,7 +9,7 @@ export const BGRefresh = () => {
           title="BG Case Study"
           src="../CaseStudy_BritishGas.pdf#view=FitH"
           width="100%"
-          className="CS_iframe"
+          className="CS-iframe"
         ></iframe>
       </Container>
     </React.Fragment>

@@ -9,7 +9,7 @@ export const RBSTravel = () => {
           title="RBS Case Study"
           src="../CaseStudy_RBS.pdf#view=FitH"
           width="100%"
-          className="CS_iframe"
+          className="CS-iframe"
         ></iframe>
       </Container>
     </React.Fragment>

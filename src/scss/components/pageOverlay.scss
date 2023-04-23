@@ -38,10 +38,44 @@
       color: $primaryColorDarker;
     }
 
-    iframe.CS_iframe {
+    iframe.CS-iframe {
       height: 100dvh;
+      width: 100%;
       border: 0;
       border-bottom: 4px solid #535659;
+    }
+    iframe.framer-content {
+      @include breakpoint(tabletandbelow) {
+        margin: 0 -15px;
+        width: 100vw;
+      }
+    }
+    .mui-container {
+      @include breakpoint(tabletandbelow) {
+        max-width: 100%;
+      }
+    }
+
+    .plaintext {
+      figure {
+        margin: 0;
+        text-align: center;
+        img {
+          width: 100%;
+          height: auto;
+          &.auto {
+            width: auto;
+          }
+        }
+      }
+    }
+
+    [role="separator"] {
+      border: 1px solid #CCC;
+      margin: 48px 0;
+      @include breakpoint(mobileonly) {
+        margin: 32px 0;
+      }
     }
 
     .sectors {

@@ -27,7 +27,6 @@ class Showcase extends Component {
   }
 
   handleThumbClick(id) {
-    console.log(id);
     this.props.showDetails(id);
   }
 
