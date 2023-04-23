@@ -7,9 +7,9 @@ export const BGRefresh = () => {
       <Container>
         <iframe
           title="BG Case Study"
-          src="../CaseStudy_BritishGas.pdf#view=FitH"
+          src="../brandRefresh/brandRefresh.html"
           width="100%"
-          className="CS-iframe"
+          className="CS-iframe framer-content"
         ></iframe>
       </Container>
     </React.Fragment>
