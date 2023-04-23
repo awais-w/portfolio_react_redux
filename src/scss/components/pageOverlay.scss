@@ -28,9 +28,6 @@
     i {
       font-size: $fontLarge;
     }
-    @include breakpoint(mobileonly) {
-      padding: 5px;
-    }
   }
   .content-wrapper {
     // margin-top: 70px;
