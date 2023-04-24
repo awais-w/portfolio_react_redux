@@ -7,9 +7,9 @@ export const CentricaDesOps = () => {
       <Container>
         <iframe
           title="Centrica Case Study"
-          src="../CaseStudy_Centrica.pdf#view=FitH"
+          src="../designOps/design_ops.html"
           width="100%"
-          className="CS-iframe"
+          className="CS-iframe framer-content"
         ></iframe>
       </Container>
     </React.Fragment>
