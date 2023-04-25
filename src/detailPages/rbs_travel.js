@@ -5,11 +5,11 @@ export const RBSTravel = () => {
   return (
     <React.Fragment>
       <Container>
-        <iframe
-          title="RBS Case Study"
-          src="../CaseStudy_RBS.pdf#view=FitH"
+      <iframe
+          title="Centrica Case Study"
+          src="../rbsTravel/rbs_travel.html"
           width="100%"
-          className="CS-iframe"
+          className="CS-iframe framer-content"
         ></iframe>
       </Container>
     </React.Fragment>
