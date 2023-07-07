@@ -30,7 +30,7 @@ export default function ResumeAbout(props) {
             <ul className="custom">
                 <li><b>Hybrid Designer/Developer</b>&nbsp;:&nbsp;<span>UX/UI Designer with hands on experience of Front-end Development</span></li>
                 <li><b>Design Ops</b> & <b>Design systems</b> setup and maintainence</li>
-                <li><b>15+ years</b>&nbsp;<span>agency and industry experience</span></li>
+                <li><b>15+ years</b>&nbsp;<span>experince working with large enterprises as well as start-ups</span></li>
                 <li><b>Agile (Scrum/Kanban)</b> as well as <b>Linear (Waterfall) </b> workflow experience</li>
                 <li><b>Masters degree</b>&nbsp;:&nbsp;<span>New media Art & Design</span></li>
                 <li><b>First degree</b>&nbsp;:&nbsp;<span>Computer Sciences (BCS)</span></li>

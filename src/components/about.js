@@ -1,7 +1,7 @@
-import React from 'react';
-import Container from 'muicss/lib/react/container';
-import Row from 'muicss/lib/react/row';
-import Col from 'muicss/lib/react/col';
+import React from "react";
+import Container from "muicss/lib/react/container";
+import Row from "muicss/lib/react/row";
+import Col from "muicss/lib/react/col";
 
 export default function About() {
   return (
@@ -12,26 +12,28 @@ export default function About() {
             <h1 className="heading noMargin">
               <span role="img" aria-label="Hello!">
                 👋🏽
-              </span>{' '}
+              </span>{" "}
               Hi! I'm Awais,
             </h1>
             <div className="desc marTop sizeMedium">
               <p>
-                I'm a <b>Senior Product Designer</b> having expertise in{' '}
+                I'm a <b>Senior Product Designer</b> having expertise in{" "}
                 <b>UI design</b>, <b>Experience design</b> and hands on
-                experience with <b>Front end development</b>.{' '}
+                experience with <b>Front end development</b>.{" "}
               </p>
               <p>
-                I specialise in commissioning and maintaining brand's{' '}
-                <b>Design System / UI Kit</b> and also <b>Design operations</b>{' '}
+                I specialise in commissioning and maintaining brand's{" "}
+                <b>Design System / UI Kit</b> and also <b>Design operations</b>{" "}
                 focusing on processes, tools and ways of working.
               </p>
               <p>
-                I help gather business and user requirements and translate them
-                into <b>testable prototypes</b>, design visually aesthetic user
-                interfaces and convert them into{' '}
-                <b>responsive and interactive</b> web apps using modern{' '}
-                <b>Javascript</b> frameworks and libraries.
+                Keeping focus on the <b>User</b>, I aim to deliver{" "}
+                <b>end to end design</b>{" "}
+                starting with <b>research</b> and <b>analysis</b> to{" "}
+                <b>identify problems</b> and <b>user pain points</b>, then
+                translate the findings into{" "}
+                <b>testable solutions & prototypes</b> and then design visually
+                aesthetic and responsive user interfaces.
               </p>
             </div>
           </Col>

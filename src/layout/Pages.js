@@ -7,8 +7,8 @@ export default function Pages() {
   return (
     <React.Fragment>
       <About />
-      <Resume />
       <Showcase />
+      <Resume />
     </React.Fragment>
   );
 }

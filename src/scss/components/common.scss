@@ -76,7 +76,7 @@
     }
     &.resume {
         background-color: lighten($supportingColor1, 35);
-        padding-bottom: 150px;
+        padding-bottom: 250px;
         @include breakpoint(mobileonly) {
             
         }
