@@ -7,8 +7,8 @@ export default function About() {
   return (
     <div className="section-wrapper about" id="aboutSection">
       <Container>
-        <Row>
-          <Col xs="12" className="textCenter">
+        <Row className="aboutRow">
+          <Col lg="8" className="textCenter">
             <h1 className="heading noMargin">
               <span role="img" aria-label="Hello!">
                 👋🏽
@@ -22,9 +22,9 @@ export default function About() {
                 experience with <b>Front end development</b>.{" "}
               </p>
               <p>
-                I specialise in commissioning and maintaining brand's{" "}
-                <b>Design System / UI Kit</b> and also <b>Design operations</b>{" "}
-                focusing on processes, tools and ways of working.
+                I specialise in commissioning and maintaining a brand's{" "}
+                <b>Design System</b> to instill cohesion and consistency among team's projects, and also <b>Design operations</b>{" "}
+                focusing on tools, processes and ways of working.
               </p>
               <p>
                 Keeping focus on the <b>User</b>, I aim to deliver{" "}
@@ -32,8 +32,8 @@ export default function About() {
                 starting with <b>research</b> and <b>analysis</b> to{" "}
                 <b>identify problems</b> and <b>user pain points</b>, then
                 translate the findings into{" "}
-                <b>testable solutions & prototypes</b> and then design visually
-                aesthetic and responsive user interfaces.
+                <b>testable solutions & prototypes</b> and then design/develop visually
+                aesthetic and <b>responsive</b> user interfaces.
               </p>
             </div>
           </Col>

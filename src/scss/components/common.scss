@@ -56,6 +56,10 @@
         @include breakpoint(mobileonly) {
             padding: 50px 0;
         }
+        .aboutRow {
+            display: flex;
+            justify-content: center;
+        }
     }
     &.showcase {
         background-color: $primaryColorLight;
