@@ -17,13 +17,13 @@ export default function About() {
             </h1>
             <div className="desc marTop sizeMedium">
               <p>
-                I'm a <b>Senior Product Designer</b> proficient with{" "}
-                <b>Experience design</b> / <b>UI design</b> and have hands-on
-                experience in <b>Front end engineering</b>.{" "}
+                I'm a <b>Senior Product Designer</b> having expertise in{" "}
+                <b>Experience design</b>/<b>UI design</b> and hands-on
+                experience with <b>Front end engineering</b>.{" "}
               </p>
               <p>
                 Keeping focus on the <b>User</b>, I aim to deliver{" "}
-                <b>end to end design</b>{" "}
+                <b>end-to-end design</b>{" "}
                 starting with <b>research</b> and <b>analysis</b> to{" "}
                 <b>identify problems</b> and <b>user pain points</b>, then
                 translate the findings into{" "}
