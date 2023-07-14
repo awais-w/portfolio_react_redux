@@ -17,14 +17,9 @@ export default function About() {
             </h1>
             <div className="desc marTop sizeMedium">
               <p>
-                I'm a <b>Senior Product Designer</b> having expertise in{" "}
-                <b>UI design</b>, <b>Experience design</b> and hands on
-                experience with <b>Front end development</b>.{" "}
-              </p>
-              <p>
-                I specialise in commissioning and maintaining a brand's{" "}
-                <b>Design System</b> to instill cohesion and consistency among team's projects, and also <b>Design operations</b>{" "}
-                focusing on tools, processes and ways of working.
+                I'm a <b>Senior Product Designer</b> proficient with{" "}
+                <b>Experience design</b> / <b>UI design</b> and have hands-on
+                experience in <b>Front end engineering</b>.{" "}
               </p>
               <p>
                 Keeping focus on the <b>User</b>, I aim to deliver{" "}
@@ -32,8 +27,13 @@ export default function About() {
                 starting with <b>research</b> and <b>analysis</b> to{" "}
                 <b>identify problems</b> and <b>user pain points</b>, then
                 translate the findings into{" "}
-                <b>testable solutions & prototypes</b> and then design/develop visually
-                aesthetic and <b>responsive</b> user interfaces.
+                <b>testable solutions & prototypes</b> and then design/develop <b>visually
+                aesthetic</b> and <b>responsive</b> user interfaces.
+              </p>
+              <p>
+                I also specialise in commissioning and maintaining a brand's{" "}
+                <b>Design System</b> to instill cohesion and consistency among team's projects, and also <b>Design operations</b>{" "}
+                focusing on tools, processes and ways of working.
               </p>
             </div>
           </Col>
