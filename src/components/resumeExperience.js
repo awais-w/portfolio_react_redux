@@ -25,7 +25,7 @@ export default function ResumeExperience(props) {
           </a>
           <h3 className="title">British gas</h3>
           <p className="bolder sizeSmall">
-            Lead Product Designer • Nov 2021 - Mar 2023
+            Design System Lead • Nov 2021 - Mar 2023
           </p>
           <p className="desc">
             <ul className="custom">
