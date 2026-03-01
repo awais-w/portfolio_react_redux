@@ -37,14 +37,16 @@ const ExperienceTile = ({ exp }) => {
       {/* Header: Date & Logo (Mobile Only) */}
       <div className="md:hidden flex flex-col items-start gap-3 mb-6">
         <span className="text-sm text-slate-500 font-bold bg-white/50 px-3 py-1 rounded-full border border-white/40">{exp.period}</span>
-        {exp.url ? (
-          <a href={exp.url} target="_blank" rel="noopener noreferrer" className="block p-2 transition-all hover:scale-105 opacity-90 hover:opacity-100">
-            <img src={exp.logo} alt={exp.company} className="w-64 h-auto object-contain" />
-          </a>
-        ) : (
-          <div className="p-2">
-            <img src={exp.logo} alt={exp.company} className="w-32 h-auto object-contain opacity-80" />
-          </div>
+        {exp.logo && (
+          exp.url ? (
+            <a href={exp.url} target="_blank" rel="noopener noreferrer" className="block p-2 transition-all hover:scale-105 opacity-90 hover:opacity-100 cursor-pointer">
+              <img src={exp.logo} alt={exp.company} className="w-64 h-auto object-contain" style={{ maxHeight: exp.company === 'BPP University' ? '100px' : 'none' }} />
+            </a>
+          ) : (
+            <div className="p-2">
+              <img src={exp.logo} alt={exp.company} className="w-32 h-auto object-contain opacity-80" style={{ maxHeight: exp.company === 'BPP University' ? '100px' : 'none' }} />
+            </div>
+          )
         )}
       </div>
 
@@ -101,6 +103,59 @@ const ExperienceTile = ({ exp }) => {
 
 const Experience = () => {
   const experiences = [
+    {
+      company: "Dunnhumby",
+      role: "Design Manager – Design System",
+      period: "Jul 2024 – Present",
+      logo: "/images/logos/dunnhumby.png",
+      color: "#003A5D",
+      url: "https://www.dunnhumby.com/",
+      desc: `<p>Dunnhumby is a global leader in customer data science, empowering businesses everywhere to compete and thrive in the modern data-driven economy.</p>
+      <br/><p>
+  Leading the strategy, governance and delivery of Dunnhumby’s enterprise <strong>design system</strong>. 
+  Managing designers and engineers contributing to the system. Defined scalable <strong>token architecture</strong> supporting multi-brand, theming and localisation. Delivered <strong>WCAG AA compliant foundations</strong> across colour, typography, spacing and components. Established <strong>governance model</strong>, contribution workflow and <strong>release pipeline</strong>. Ensured <strong>Figma ↔ React parity</strong> through structured component APIs and <strong>Storybook documentation</strong>. Partnering with product, engineering and content teams to drive adoption across the business.
+</p>`
+    },
+    {
+      company: "BPP University",
+      role: "Design System Lead (Contract)",
+      period: "Jan 2024 – Jun 2024",
+      logo: "/images/logos/bpp.png",
+      color: "#182046",
+      url: "https://www.bpp.com",
+      desc: `<p>BPP University is a private university in the UK, dedicated to business and the professions.</p>
+      <br/><p>
+  Led the evolution of Scholar, BPP’s <strong>design system</strong>. Introduced structured <strong>token architecture</strong> and improved Figma library foundations. Conducted <strong>accessibility audits</strong> and aligned patterns to <strong>WCAG standards</strong>. Strengthened <strong>design-to-development consistency</strong>. Established <strong>governance guidance</strong> for system adoption across product teams.
+</p>`
+    },
+    {
+      company: "Alchemy Global Solutions",
+      role: "Senior Product Designer / Front-End Engineer",
+      period: "Jul 2023 – Jan 2024",
+      logo: "/images/logos/alchemy.svg",
+      color: "#FC400B",
+      url: "https://www.alchemyglobalsolutions.com/",
+      desc: `<p>Alchemy Global Solutions is an international business providing circular economy solutions for the technology industry.</p>
+      <br/><p>
+  Worked as a designer-developer on OneTouch, an internal warehouse operations app used to inspect, connect and grade devices. Designed complete <strong>UX flows</strong> and <strong>UI patterns</strong>. Built front-end using <strong>React, Redux Toolkit</strong> and <strong>Styled Components</strong>. Used MUI initially, then identified the need for a centralised system.</p>
+  <br/><p><strong>Initiated & Led: Vulcan Design System</strong><br/>
+  Founded and led development of Vulcan – Alchemy’s internal design system. Designed in <strong>Figma</strong> and developed in <strong>React + Storybook</strong>. Tokenised foundations supporting multi-brand theming. Embedded accessibility and localisation at foundation level. Defined <strong>component APIs</strong> and documentation standards.
+</p>`
+    },
+    {
+      company: "Fold7",
+      role: "Senior Design System Designer (Contract)",
+      period: "Apr 2023 – Jul 2023",
+      logo: "/images/logos/fold7.svg",
+      color: "#000000",
+      url: "https://fold7.com",
+      desc: `<p>Fold7 is an independent creative advertising agency based in London.</p>
+      <br/><p>
+  Contracted to build a <strong>multi-brand design system</strong> for IWG workspace brands including Regus, Signature, Spaces, and HQ. Designed a single scalable design system serving multiple brands.</p>
+  <br/><p><strong>Highlights:</strong><br/>
+  Built multi-brand <strong>token architecture</strong> using <strong>Tokens Studio</strong>. Tokens hosted and version-controlled via <strong>GitHub</strong>. Designed scalable UI kit in <strong>Figma</strong>. Enabled brand switching through token-driven foundations. Established consistent <strong>component patterns</strong> across all workspace brands. This was a true enterprise multi-brand system — not separate libraries pretending to be unified.
+</p>`
+    },
     {
       company: "British Gas",
       role: "Design System Lead",
@@ -178,7 +233,7 @@ const Experience = () => {
       period: "Jul 2014 - Nov 2018",
       logo: "/images/logos/affinion.png",
       color: "#1C4890",
-      url: "https://www.affinioninternational.com",
+      url: null,
       desc: `<p>Affinion International is a global leader in customer engagement and loyalty programs, partnering with major brands.</p>
       <br/><p>
   As a <strong>Lead UI/UX Designer & Front-End Developer</strong>, I led the design and development of key 
@@ -271,14 +326,16 @@ const Experience = () => {
                     <span className="text-slate-500 font-bold bg-white/50 px-4 py-1.5 rounded-full text-sm backdrop-blur-sm shadow-sm border border-white/40">
                       {exp.period}
                     </span>
-                    {exp.url ? (
-                      <a href={exp.url} target="_blank" rel="noopener noreferrer" className="block p-2 transition-all hover:scale-105 opacity-90 hover:opacity-100">
-                        <img src={exp.logo} alt={exp.company} className="w-64 h-auto object-contain" />
-                      </a>
-                    ) : (
-                      <div className="p-2">
-                        <img src={exp.logo} alt={exp.company} className="w-64 h-auto object-contain opacity-80" />
-                      </div>
+                    {exp.logo && (
+                      exp.url ? (
+                        <a href={exp.url} target="_blank" rel="noopener noreferrer" className="block p-2 transition-all hover:scale-105 opacity-90 hover:opacity-100 cursor-pointer">
+                          <img src={exp.logo} alt={exp.company} className="w-64 h-auto object-contain" style={{ maxHeight: exp.company === 'BPP University' ? '100px' : 'none' }} />
+                        </a>
+                      ) : (
+                        <div className="p-2">
+                          <img src={exp.logo} alt={exp.company} className="w-64 h-auto object-contain opacity-80" style={{ maxHeight: exp.company === 'BPP University' ? '100px' : 'none' }} />
+                        </div>
+                      )
                     )}
                   </div>
                 </div>

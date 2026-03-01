@@ -72,7 +72,7 @@ const Hero = () => {
       {/* Pinned Caricature */}
       <div className="absolute bottom-0 left-0 w-full z-50 hidden md:block pointer-events-none">
         <div className="container mx-auto px-6 h-full relative">
-          <div className="absolute bottom-0 right-6 lg:right-[-40px] md:right-[-70px] pointer-events-auto">
+          <div className="absolute bottom-0 right-6 lg:right-[-40px] md:right-[-70px] pointer-events-auto [@media(max-height:700px)]:scale-[0.8] [@media(max-height:700px)]:origin-bottom-right transition-transform duration-300">
             <Caricature />
           </div>
         </div>
