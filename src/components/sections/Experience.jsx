@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Briefcase, Calendar, ChevronDown, ChevronUp } from 'lucide-react';
+import BrandTicker from '../ui/BrandTicker';
 
 const ExperienceTile = ({ exp }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -288,6 +289,8 @@ const Experience = () => {
 
   return (
     <section id="experience" className="py-20 relative">
+      <BrandTicker />
+
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
