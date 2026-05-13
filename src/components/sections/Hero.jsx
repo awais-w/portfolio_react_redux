@@ -43,7 +43,7 @@ const Hero = () => {
             >
               <b>I architect scalable and accessible multi-brand design systems.</b>
               <br />
-              Adaptive tokens, cohesive component libraries, and governance model that works in the real world — everything teams need to design and deliver at scale.
+              Adaptive tokens, cohesive component libraries, AI-driven workflows, and governance models that work in the real world — everything teams need to design and deliver at scale.
             </motion.p>
 
             <motion.div

@@ -114,7 +114,7 @@ const Experience = () => {
       desc: `<p>Dunnhumby is a global leader in customer data science, empowering businesses everywhere to compete and thrive in the modern data-driven economy.</p>
       <br/><p>
   Leading the strategy, governance and delivery of Dunnhumby’s enterprise <strong>design system</strong>. 
-  Managing designers and engineers contributing to the system. Defined scalable <strong>token architecture</strong> supporting multi-brand, theming and localisation. Delivered <strong>WCAG AA compliant foundations</strong> across colour, typography, spacing and components. Established <strong>governance model</strong>, contribution workflow and <strong>release pipeline</strong>. Ensured <strong>Figma ↔ React parity</strong> through structured component APIs and <strong>Storybook documentation</strong>. Partnering with product, engineering and content teams to drive adoption across the business.
+  Managing designers and engineers contributing to the system. Defined scalable <strong>token architecture</strong> supporting multi-brand, theming and localisation. Delivered <strong>WCAG AA compliant foundations</strong> across colour, typography, spacing and components. Established <strong>governance model</strong>, contribution workflow and <strong>release pipeline</strong>. Pioneered <strong>AI-driven research</strong> and workflows, utilizing <strong>MCP tools</strong> and <strong>skills.md files</strong> to extract context from design and generate production-ready code with design tokens intact. Partnering with product, engineering and content teams to drive adoption across the business.
 </p>`
     },
     {
