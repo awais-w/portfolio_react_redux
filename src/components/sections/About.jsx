@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { User, MapPin, Mail, FileText, Code, Layers, Clock, Award } from 'lucide-react';
+import { User, MapPin, Mail, FileText, Code, Layers, Clock, Award, Bot } from 'lucide-react';
 import ProfileCard from '../ui/ProfileCard';
 
 const About = () => {
@@ -9,6 +9,11 @@ const About = () => {
       icon: <Layers className="w-6 h-6 text-blue-600" />,
       label: "Design Systems & Design Ops",
       desc: "Setup and maintenance of scalable design systems and processes"
+    },
+    {
+      icon: <Bot className="w-6 h-6 text-blue-600" />,
+      label: "AI Automation & Workflows",
+      desc: "Leveraging MCP tools for research, design builds, and automated documentation"
     },
     {
       icon: <Code className="w-6 h-6 text-blue-600" />,
@@ -51,7 +56,7 @@ const About = () => {
                   I specialise in the curation and maintenance of scalable Design Systems, ensuring consistency and efficiency across product ecosystems. My expertise lies in bridging the gap between design and development through robust governance and documentation.
                 </p>
                 <p>
-                  I have a strong track record in establishing Design Ops, optimizing ways of working, and implementing tools and processes that streamline collaboration. I focus on creating seamless workflows that empower teams to deliver high-quality products at speed.
+                  I have a strong track record in establishing Design Ops, optimizing ways of working, and implementing tools and processes that streamline collaboration. I am now pioneering <strong>AI automation workflows</strong> by leveraging <strong>MCP tooling</strong> to accelerate research, automate design builds, and generate comprehensive documentation.
                 </p>
                 <p>
                   Beyond design, I bring hands-on experience in Front-end development, utilising the React stack and TypeScript to build production-ready components. This technical proficiency allows me to design with feasibility in mind and contribute directly to the codebase.
